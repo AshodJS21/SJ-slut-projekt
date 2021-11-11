@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.static.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>STAR WARS <br/>CATALOG</h1>
+    </header>
+
+    <main>
+      <div class="list">
+        <div class="listLeft">
+          <h2>Charachters</h2>
+          <!-- spinner -->
+          <div class="ul-loader hidden">
+            <div class="loader"></div>
+          </div>
+          <ul></ul>
+          <div class="button">
+            <button class="backward">◀</button>
+            <span class="page-number"></span><span> / 9</span>
+            <button class="forward">▶</button>
+          </div>
+        </div>
+
+        <div class="listRightUp">
+          <div class="character-div">
+            <h2>Details</h2>
+            <article></article>
+          </div>
+
+          <div class="listRightDown planet-div">
+            <!--spinner-->
+            <div class="planet-loader hidden">
+              <div class="p-loader"></div>
+            </div> 
+            <article class="planet-article"></article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="project.js"></script>
+  </body>
+</html>
