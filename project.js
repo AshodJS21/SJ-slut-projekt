@@ -126,18 +126,6 @@ function renderPlanet(api) {
     });
 }
 
-function showUlLoader(state = false) {
-  const spinner = document.querySelector(".ul-loader");
-  state ? spinner.classList.remove("hidden") : spinner.classList.add("hidden");
-}
-
-function removeListItems() {
-  const listItems = document.querySelectorAll("li");
-  if (listItems.length > 0) {
-    listItems.forEach((li) => li.remove());
-  }
-}
-
 //loading spinner
 function showUlLoader(state) {
   const spinner = document.querySelector(".ul-loader");
